@@ -1,1 +1,2 @@
-=TEKST.SAMENV(PreTransitionPeriod; " AND "; "/*/MessageType in {'CC015C','CD001C','CD003C','CD012C','CD050C','CD038C','CC013C','','CD115C','CD165C','CD160C'})"
+/*/MessageType in {'CD095C'}
+/*/MessageType in {'CC015C','CD001C','CD003C','CD012C','CC017C','CD050C','CD038C','CC029C','CC013C','CD115C','CD165C','CD160C',' CC043C',' CD050C'}

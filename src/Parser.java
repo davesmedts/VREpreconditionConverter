@@ -15,12 +15,11 @@ public class Parser {
             StringBuilder builder = new StringBuilder("/*/MessageType in {");
 //            StringBuilder builder = new StringBuilder("=TEKST.SAMENV(PreTransitionPeriod; \" AND \"; \"/*/MessageType in {");
 //            StringBuilder builder = new StringBuilder("=TEKST.SAMENV(AfterTransitionPeriod; \" AND \"; \"/*/MessageType in {");
-            for (int i = 0;
-                 i < messages.length; i++) {
+            for (int i = 0; i < messages.length; i++) {
 
                 String endMark;
                 if (i == messages.length - 1) {
-                    endMark = "})\"";
+                    endMark = "}";
                 } else {
                     endMark = ",";
                 }
