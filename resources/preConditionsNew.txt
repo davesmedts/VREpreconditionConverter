@@ -1,6 +1,1 @@
-/*/MessageType in {"CC015C","CC013C"}
-/*/MessageType in {"CC015C","CC013C","CC170C"}
-/*/MessageType in {"CC170C"}
-/*/MessageType in {"CC015C","CC013C"}
-/*/MessageType in {"CD971C","CD070C","CD071C"}
-/*/MessageType in {"CD094C","CD095C"}
+=TEKST.SAMENV(PreTransitionPeriod; " AND "; "/*/MessageType in {'CC015C','CD001C','CD003C','CD012C','CD050C','CD038C','CC013C','','CD115C','CD165C','CD160C'})"

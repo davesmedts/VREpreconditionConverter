@@ -13,15 +13,18 @@ public class Parser {
 
 
             StringBuilder builder = new StringBuilder("/*/MessageType in {");
-            for (int i = 0; i < messages.length; i++) {
+//            StringBuilder builder = new StringBuilder("=TEKST.SAMENV(PreTransitionPeriod; \" AND \"; \"/*/MessageType in {");
+//            StringBuilder builder = new StringBuilder("=TEKST.SAMENV(AfterTransitionPeriod; \" AND \"; \"/*/MessageType in {");
+            for (int i = 0;
+                 i < messages.length; i++) {
 
                 String endMark;
                 if (i == messages.length - 1) {
-                    endMark = "}";
+                    endMark = "})\"";
                 } else {
                     endMark = ",";
                 }
-                builder.append(String.format("\"%s\"%s", messages[i], endMark));
+                builder.append(String.format("'%s'%s", messages[i], endMark));
             }
 
             newPreConditions.add(builder.toString());
